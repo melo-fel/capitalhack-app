@@ -3,17 +3,8 @@
 }
 
 .title {
-  margin: 50px 0;
+  margin: 40px 0;
   font-family: 'Belleza', sans-serif;
-  font-size: 50px;
-  color: #1D49AE;
-}
-
-button {
-  background-color: #ED6A5A;
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-  color: white
+  font-size: 40px;
+  color: #D22E1E;
 }
