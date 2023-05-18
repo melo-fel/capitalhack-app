@@ -1,4 +1,4 @@
-#CapitalOne Hackathon - CapitalHack App
+# **CapitalOne Hackathon - CapitalHack App**
 
 Problem statement: Many of us are visually minded people but our banking apps don’t allow us to easily visualize and understand where our money is going and how we could better utilize it. 
 
