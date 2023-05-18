@@ -1,6 +1,6 @@
-import TestTodoPage from './components/TestTodoPage';
-import TestNavBar from './components/TestNavBar';
-import TestHomePage from './components/TestHomePage';
+import TodoPage from './components/TodoPage';
+import NavBar from './components/NavBar';
+import HomePage from './components/HomePage';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 
@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <TestNavBar/>
+        <NavBar/>
           <Routes>
-            <Route path="/" element={<TestHomePage/>}/>
-            <Route path="/todo" element={<TestTodoPage/>}/> 
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/todo" element={<TodoPage/>}/> 
          </Routes>
       </Router>
     </div>

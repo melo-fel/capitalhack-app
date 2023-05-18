@@ -1,6 +1,6 @@
 import TodoItem from './TodoItem'
 import { todoList } from './TodoList';
-import './TestTodoPage.css'
+import './TodoPage.css'
 
 const TestTodoPage = () => {
     return (
