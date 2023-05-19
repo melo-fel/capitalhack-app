@@ -1,5 +1,5 @@
 import TodoPage from './components/TodoPage';
-import NavBar from './components/NavBar';
+import NavBar from './components/TheNavbar';
 import HomePage from './components/HomePage';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
