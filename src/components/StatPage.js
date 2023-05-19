@@ -11,8 +11,8 @@ const StatPage = () => {
 
             const myChart = new Chart("myChart", {
                 type: bar,
-                data: {labels: xValues, datasets: [{backgroundColor: barColors, data: yValues}]{}},
-                options: {legend: {display: false{"}"}, title: {display: true, text: "Stats Page for User"}}
+                data: {labels: xValues, datasets: [{backgroundColor: barColors, data: yValues}]},
+                options: {legend: {display: false}, title: {display: true, text: "Stats Page for User"}}
             }});
             </script>
         </div>
